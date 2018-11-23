@@ -132,20 +132,6 @@
 
 #define THREAD_STACK_SIZE                       5 * 1024 * 1024
 
-#define HF_VERSION_ALLOW_RCT                    255
-// #define HF_VERSION_DYNAMIC_FEE                  4
-#define HF_VERSION_ENFORCE_RCT                  255
-
-#define PER_KB_FEE_QUANTIZATION_DECIMALS        8
-
-#define HASH_OF_HASHES_STEP                     256
-
-#define DEFAULT_TXPOOL_MAX_SIZE                 648000000ull // 3 days at 300000, in bytes
-
-#define DEFAULT_RING_SIZE                       3
-
-#define NOFAKE_TXS_TO_TOTAL_TXS_PERCENT         10
-
 #define HF_VERSION_DYNAMIC_FEE                  4
 #define HF_VERSION_MIN_MIXIN_4                  6
 #define HF_VERSION_MIN_MIXIN_6                  7
@@ -157,8 +143,10 @@
 
 #define HASH_OF_HASHES_STEP                     256
 
+#define DEFAULT_TXPOOL_MAX_WEIGHT               648000000ull // 3 days at 300000, in bytes
 
 #define BULLETPROOF_MAX_OUTPUTS                 16
+
 
 // New constants are intended to go here
 namespace config

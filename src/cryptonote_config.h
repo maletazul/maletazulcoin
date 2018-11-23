@@ -146,6 +146,8 @@
 
 #define NOFAKE_TXS_TO_TOTAL_TXS_PERCENT         10
 
+#define BULLETPROOF_MAX_OUTPUTS                 16
+
 // New constants are intended to go here
 namespace config
 {

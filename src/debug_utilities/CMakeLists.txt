@@ -67,5 +67,5 @@ target_link_libraries(object_sizes
 
 set_property(TARGET object_sizes
 	PROPERTY
-	OUTPUT_NAME "monero-utils-object-sizes")
+	OUTPUT_NAME "mla-utils-object-sizes")
 
